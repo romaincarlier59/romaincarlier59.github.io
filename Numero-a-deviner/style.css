@@ -1,0 +1,51 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body
+{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+input
+{
+    font-size: 10em;
+    text-align: center;
+    width: 200px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+    color: white;
+    border-radius: 10px;
+padding: 20px;
+
+}
+.error
+{
+    background-color: rgb(228, 135, 135);
+    border: 2px solid rgb(228, 135, 135);
+}
+.fa-sharp {
+    font-size: 10em ;
+    color: white;
+    color: darkblue;
+    display: none;
+       
+
+}
+#button
+{
+    position: absolute ;
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    top: 8px;
+    z-index: 1;
+    
+     
+}
