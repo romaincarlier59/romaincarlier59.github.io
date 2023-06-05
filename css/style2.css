@@ -6,10 +6,11 @@
 
 }
 .action-button, .linkedin {
-    padding: 10px 40px;
+    padding: 10px 20px; 
+    
     border-radius: 10px;
     font-family: 'Arial';
-    font-size: 25px;
+    /* font-size: 25px; */
     color: #ffffff;
     text-decoration: none;
     background-color: #3498DB;
@@ -52,3 +53,44 @@ body
     
      
 }
+@media screen  and (max-width: 1024px)
+{
+    nav .main_pages a
+    {
+        font-size: large;
+    }
+
+    .begin 
+    {
+        font-size: xx-large;
+
+    }
+}
+
+@media screen  and (max-width: 1200px)
+{
+    nav .main_pages a
+    {
+        font-size: large;
+    }
+
+    }
+
+@media screen  and (max-width: 900px)
+{
+    nav .main_pages a
+    {
+        font-size: small;
+    }
+    .begin 
+    {
+        font-size: xx-large;
+    }
+    .h1
+    {
+        font-size: x-large;
+        text-align: left;
+       
+    }
+}
+

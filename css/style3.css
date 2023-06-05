@@ -163,3 +163,44 @@ body {
     
      
 }
+@media screen  and (max-width: 1024px)
+{
+    nav .main_pages a
+    {
+        font-size: large;
+    }
+
+    .begin 
+    {
+        font-size: xx-large;
+
+    }
+}
+
+@media screen  and (max-width: 1200px)
+{
+    nav .main_pages a
+    {
+        font-size: large;
+    }
+
+    }
+
+@media screen  and (max-width: 900px)
+{
+    nav .main_pages a
+    {
+        font-size: small;
+    }
+    .begin 
+    {
+        font-size: x-large;
+    }
+    .h1
+    {
+        font-size: x-large;
+        text-align: left;
+       
+    }
+}
+

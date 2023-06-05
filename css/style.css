@@ -40,62 +40,13 @@ nav a:hover
 {
     background: #5A5766
 }
-
-.begin
-{
-    position: absolute;
-    bottom: 45%;
-    left:250px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #fbfbfb;
-    position: absolute;
-    animation-name: leftToRight;
-    animation-duration:1s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-   }
-@keyframes leftToRight 
-{
-    0% {
-      transform: translateX( -200px);
-    }
-    100% {
-      transform: translateX(+160px);
-    }
-  }
-.front
+.div1
 {
     color: white;
     position: relative;
-    bottom: 35%;
-    left:250px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #fbfbfb;
-    position: absolute;
-    animation-name: leftToRight;
-    animation-duration:1s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-   }
-@keyframes leftToRight 
-{
-    0% {
-      transform: translateX( -200px);
-    }
-    100% {
-      transform: translateX(+160px);
-    }
-  }
-
-.portfolio
-{
-    color: white;
-    position: absolute;
-    bottom: 40%;
-    left:250px;
-    font-size: 40px;
+    bottom: 30%;
+    left:20%;
+    font-size: 20px;
     font-weight: bold;
     color: #fbfbfb;
     position: absolute;
@@ -104,6 +55,28 @@ nav a:hover
     animation-timing-function: linear;
     animation-iteration-count: 1;
 }
+
+@keyframes leftToRight 
+{
+    0% {
+      transform: translateX( -200px);
+    }
+    100% {
+      transform: translateX(+160px);
+    }
+  }
+
+@keyframes leftToRight 
+{
+    0% {
+      transform: translateX( -200px);
+    }
+    100% {
+      transform: translateX(+160px);
+    }
+  }
+
+
 body
 {
     display: grid;
@@ -127,11 +100,7 @@ body::before
         font-size: large;
     }
 
-    .begin 
-    {
-        font-size: xx-large;
 
-    }
 }
 
 @media screen  and (max-width: 1200px)
@@ -149,15 +118,17 @@ body::before
     {
         font-size: small;
     }
-    .begin 
+    
+    
+}
+@media screen  and (max-width: 700px)
+{
+    nav .main_pages a
     {
-        font-size: x-large;
+        font-size: small;
+        
     }
-    .h1
-    {
-        font-size: x-large;
-        text-align: left;
-       
-    }
+
+    
 }
 
