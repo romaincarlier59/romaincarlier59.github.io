@@ -107,9 +107,13 @@ h2
 }
 #button
 {
-    position: absolute ;
+    position: relative;
+    display: flex;
     height: 30px;
     width: 30px;
+    left: 40px;
+    top: 48px;
+   
     z-index: 1;
     
      
